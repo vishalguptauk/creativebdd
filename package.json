@@ -45,6 +45,12 @@
     "ts-node": "^8.0.2",
     "typescript": "^3.0.1"
   },
-  "repository": "https://github.com/igniteram/protractor-cucumber-typescript",
-  "license": "ISC"
+  "repository": "https://github.com/vishalguptauk/creativebdd",
+  "license": "ISC",
+  "moduleResolution": "node",
+  "sourceMap": true,
+  "target": "es6",
+  "typeRoots": [
+    "node_modules/@types"
+  ]
 }
